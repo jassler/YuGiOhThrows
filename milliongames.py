@@ -8,6 +8,8 @@ lost = 0
 for c in range(0, games):
     i_got = [randint(1, 6), randint(1, 6)]
     he_got = [randint(1, 6), randint(1, 6)]
+
+    # decide which opponent's throw to turn into a 7
     if he_got[0] < he_got[1]:
         he_got[0] = 7
     else:

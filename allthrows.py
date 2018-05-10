@@ -10,7 +10,7 @@ for a in range(1, 7):
         for c in range(1, 7):
             for d in range(1, 7):
 
-                # 
+                # decide which opponent's throw to turn into a 7
                 if c<d:
                     c = 7
                 else:
